@@ -1,7 +1,7 @@
 {
-  "name": "@parse/node-apn",
+  "name": "@camdh/node-apn",
   "description": "An interface to the Apple Push Notification service for Node.js",
-  "version": "5.0.0",
+  "version": "1.0.2",
   "author": "Andrew Naylor <argon@mkbot.net>",
   "keywords": [
     "apple",
@@ -15,7 +15,7 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/parse-community/node-apn.git"
+    "url": "https://github.com/CambridgeDigitalHealth/node-apn.git"
   },
   "dependencies": {
     "debug": "4.3.2",

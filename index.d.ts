@@ -2,6 +2,12 @@
 
 import { EventEmitter } from 'events';
 
+export interface ProxyOptions {
+  host: string;
+  port: number;
+  timeout?: number;
+}
+
 export interface ProviderToken {
   /**
    * The filename of the provider token key (as supplied by Apple) to load from disk, or a Buffer/String containing the key data.
@@ -61,7 +67,7 @@ export interface ProviderOptions {
   /**
    * Connect through an HTTP proxy
    */
-  proxy?: { host: string, port: number|string }
+  proxy?: ProxyOptions;
 }
 
 export interface MultiProviderOptions extends ProviderOptions {
